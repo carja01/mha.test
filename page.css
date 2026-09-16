@@ -19,7 +19,7 @@ header{
     
 }
 p{
-    color:green;
+    color:rgb(211, 255, 221);
     
 }
 p:hover{
@@ -28,15 +28,40 @@ p:hover{
 
 .top{
     style:block;
-    style:flex;
+    display:flex;
     color:green;
     background-color: green;
+    
 }
 a{
     text-decoration:none;
     color: rgb(211, 255, 221);
-    style: row;
+    
 }
 a:hover{
     color:rgb(255, 194, 204);
+}
+.bottom{
+    display:flex;
+    style:block;
+    background-color: green;
+    position:fixed;
+    bottom:0;
+    width:100%;
+}
+
+li{
+    color:green;
+    margin: 20px;
+    
+}
+
+h3{
+    color:green;
+}
+h3:hover{
+    color:rgb(255, 194, 204);
+}
+ul{
+    column-rule-style: row;
 }
