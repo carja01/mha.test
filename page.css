@@ -1,0 +1,42 @@
+h1{
+    color:green;
+    justify-content: center;
+    margin-left: 44%;
+    margin-right: 44%;
+}
+h1:hover{
+    color:rgb(255, 194, 204);
+    header{
+        background-color:green;
+    }
+}
+header{
+    style: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(211, 255, 221);
+    padding: 20px;
+    
+}
+p{
+    color:green;
+    
+}
+p:hover{
+    color:rgb(255, 194, 204)
+}
+
+.top{
+    style:block;
+    style:flex;
+    color:green;
+    background-color: green;
+}
+a{
+    text-decoration:none;
+    color: rgb(211, 255, 221);
+    style: row;
+}
+a:hover{
+    color:rgb(255, 194, 204);
+}
