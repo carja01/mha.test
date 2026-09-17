@@ -1,17 +1,16 @@
+body{
+    background-color: rgb(211, 255, 221) ;
+}
+
+
 h1{
+    display:flex;
     color:green;
     justify-content: center;
-    margin-left: 44%;
-    margin-right: 44%;
-}
-h1:hover{
-    color:rgb(255, 194, 204);
-    header{
-        background-color:green;
-    }
+    margin-left: 45%;
+    margin-right: 45%;
 }
 header{
-    style: flex;
     text-align: center;
     justify-content: center;
     background-color: rgb(211, 255, 221);
@@ -27,10 +26,12 @@ p:hover{
 }
 
 .top{
-    style:block;
     display:flex;
-    color:green;
+    color: rgb(211, 255, 221);
     background-color: green;
+    position:fixed;
+    left:0;
+    width: 100%;
     
 }
 a{
@@ -41,13 +42,12 @@ a{
 a:hover{
     color:rgb(255, 194, 204);
 }
-.bottom{
+.bottom{ 
     display:flex;
-    style:block;
     background-color: green;
     position:fixed;
     bottom:0;
-    width:100%;
+    width: 100%;
 }
 
 li{
@@ -58,10 +58,15 @@ li{
 
 h3{
     color:green;
+    margin-left: 40%;
+    margin-right: 40%;
 }
-h3:hover{
-    color:rgb(255, 194, 204);
+
+main{
+    justify-content: center;
+    align-items: center;
 }
-ul{
-    column-rule-style: row;
+img{
+    margin-top:10%;
+    margin-left:50%;
 }
